@@ -1,0 +1,41 @@
+.wrapper {
+  margin-top: 20px;
+}
+.loading {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.search {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: #e4e4e4;
+}
+.search input {
+  border: 1px solid #f3f3f3;
+  padding: 7px 7px 7px 30px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #c4c4c4;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

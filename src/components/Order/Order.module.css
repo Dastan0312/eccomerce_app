@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80vw;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+.orderBox {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  margin: 20px;
+}
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+}
+.titleBtn {
+  opacity: 0.4;
+}
+.titleBtn:hover {
+  opacity: 1;
+}
+.orderInfo {
+  margin: 0 15px;
+}
+.orderForm {
+  margin: 0 15px 40px 15px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.total {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sumItems {
+  display: flex;
+  margin: 15px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .orderBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  .titleBox {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,90 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.overlay {
+  background: #000000;
+  opacity: 50%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 360px;
+  height: 100vh;
+  background: #fff;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 66vh;
+  overflow-y: auto;
+}
+.busket {
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+  left: 4%;
+}
+.busket > div {
+  display: flex;
+  justify-content: space-between;
+}
+.dushed {
+  border-bottom: 1px dashed #dfdfdf;
+  margin: 5px 10px;
+  flex: 1;
+}
+.btn {
+  cursor: pointer;
+  margin: 15px;
+  padding: 10px 25px 10px 15px;
+  background-color: #9dd458;
+  border-radius: 10px;
+  color: #fff;
+  align-items: center;
+  transition: all 0.5s ease-in;
+  position: relative;
+}
+.btn:hover .rightIcon {
+  transform: translateX(5px);
+}
+.btn:hover .leftIcon {
+  transform: translateX(-5px);
+}
+.leftIcon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.emtyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}

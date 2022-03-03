@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin: 10px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: row;
+}
+.userContainer > div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+a {
+  color: initial;
+}

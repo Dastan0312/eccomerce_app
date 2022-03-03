@@ -1,0 +1,41 @@
+.userPage {
+  display: flex;
+  flex-direction: column;
+}
+.cardBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.userInfo {
+  display: flex;
+}
+.info > p {
+  margin: 5px, 15px;
+}
+li {
+  list-style: none;
+  margin: 5px 15px;
+  font-size: 18px;
+}
+.infoTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  opacity: 0.6;
+}
+.btn:hover {
+  opacity: 1;
+}
+.backBtn {
+  font-size: 20px;
+  margin: 0 20px 0 0;
+}
+.loading {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
